@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  justify-content:space-between;
+  height:400px;
+  width:800px;
+  margin:300px;
+ 
+
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.gallery-item {
+  max-width: 200px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+  color:red;
+}
+
